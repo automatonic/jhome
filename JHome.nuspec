@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>JHome</id>
+        <version>0.1.0</version>
+        <title>JHome</title>
+        <description>JSON.NET extensions for supporting JSON HOME Specification (https://tools.ietf.org/html/draft-nottingham-json-home-05)</description>
+        <authors>Elliott B. Edwards (automatonic)</authors>
+        <language>en-US</language>
+        <projectUrl>https://www.github.com/automatonic/japi</projectUrl>
+        <iconUrl>http://www.gravatar.com/avatar/772743edd14cb0bd749c2a08bccad4c5.png?s=256</iconUrl>
+        <licenseUrl>https://raw.githubusercontent.com/automatonic/jhome/master/LICENSE</licenseUrl>
+        <tags>json</tags>
+        <dependencies>
+            <group targetFramework=".NETStandard1.0">
+                <dependency id="Newtonsoft.Json" version="4.0.1" />
+            </group>
+        </dependencies>
+    </metadata>
+</package>
