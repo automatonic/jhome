@@ -1,6 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
+    <PackageId>JHome</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Elliott B. Edwards (automatonic)</Authors>
+    <Description>JSON.NET extensions for supporting JSON HOME Specification (https://tools.ietf.org/html/draft-nottingham-json-home-05)</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>json json-home</PackageTags>
+    <PackageProjectUrl>https://www.github.com/automatonic/jhome</PackageProjectUrl>
+    <PackageIconUrl>http://www.gravatar.com/avatar/772743edd14cb0bd749c2a08bccad4c5.png?s=256</PackageIconUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/automatonic/jhome/master/LICENSE</PackageLicenseUrl>
+    <Configuration>Release</Configuration>
+    <PackageReleaseNotes>Initial Package Attempt.</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="**\*.cs" />

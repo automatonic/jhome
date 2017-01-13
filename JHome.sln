@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JHome.Should", "test\JHome.Should\JHome.Should.csproj", "{9C029166-A191-48AD-9456-4221CB55DC9E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{7EFF1E80-5C51-4C56-856D-6A600DF09876}"
-	ProjectSection(SolutionItems) = preProject
-		JHome.nuspec = JHome.nuspec
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
